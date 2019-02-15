@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550235548264.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3C928089",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1550235548264,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "85490A21",
+        "caption" : "CaseStudy2_data",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=CaseStudy2_data&cache_key=85490A21",
+        "displayedObservations" : "1470",
+        "environment" : "",
+        "object" : "CaseStudy2_data",
+        "preview" : "0",
+        "totalObservations" : "1470",
+        "variables" : "41"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

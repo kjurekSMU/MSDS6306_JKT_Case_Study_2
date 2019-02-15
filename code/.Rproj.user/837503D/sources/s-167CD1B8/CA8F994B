@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550233450458.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CA8F994B",
+    "lastKnownWriteTime" : 1550242663,
+    "last_content_update" : 1550250963738,
+    "path" : "~/Library/Mobile Documents/com~apple~CloudDocs/SMU/MSDS6306 Doing Data Science/CaseStudy2/code/CaseStudy2.R",
+    "project_path" : "CaseStudy2.R",
+    "properties" : {
+        "cursorPosition" : "51,40",
+        "scrollLine" : "36"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

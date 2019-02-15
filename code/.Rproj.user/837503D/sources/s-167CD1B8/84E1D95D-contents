@@ -1,0 +1,39 @@
+mammals <- read.csv("../Datasets/Brain.csv")
+plot(mammals[,-1])
+mammals$logBrain <- log(mammals$Brain)
+mammals$logBody <- log(mammals$Body)
+mammals$logGestation <- log(mammals$Gestation)
+mammals$logLitter <- log(mammals$Litter)
+
+plot(logBrain ~ logBody, data=mammals)
+
+mammals.lm <- lm(logBrain ~ logBody + logGestation + logLitter, data=mammals)
+summary(mammals.lm)
+
+## Scatterplot of Residuals
+mammals.res = resid(mammals.lm)
+plot(mammals$logBrain, mammals.res, 
+     ylab="Residuals", xlab="log Brain Size", main="Residuals vs log Brain Size") 
+abline(0, 0)   
+
+##Store studentized residuals
+studresmammals <- rstudent(mammals.lm)
+plot(mammals$logBrain, studresmammals, ylim=c(-3,3), 
+     ylab="Residuals", xlab="log Brain Size", main="Studentized Residuals") 
+abline(-2, 0)
+abline(2, 0)
+
+
+## Histogram
+hist(studresmammals, freq = FALSE, main="Distribution of Studentized Residuals",
+     xlab = "Studentized Residuals",
+     ylab = "Density",
+     ylim=c(0,0.5))
+xfit <- seq(min(-2), max(studresmammals), length=40)
+yfit <- (dnorm(xfit))
+lines(xfit,yfit,ylim=c(0,0.5), col="blue")
+
+#q-q plot of residuals
+qqnorm(studresmammals, pch =1, frame=FALSE)
+qqline(studresmammals, col = "steelblue", lwd=2)
+

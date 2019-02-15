@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550233632679.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "712EA01F",
+    "lastKnownWriteTime" : 10,
+    "last_content_update" : 1550233632679,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "5255CB64",
+        "caption" : "attrition",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=attrition&cache_key=5255CB64",
+        "displayedObservations" : "237",
+        "environment" : "",
+        "object" : "attrition",
+        "preview" : "0",
+        "totalObservations" : "237",
+        "variables" : "35"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

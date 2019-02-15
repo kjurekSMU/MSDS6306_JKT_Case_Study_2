@@ -1,0 +1,8 @@
+library(readxl)
+CaseStudy2_data <- read_excel("../datasets/CaseStudy2-data.xlsx")
+
+sum(CaseStudy2_data$Attrition == "Yes")
+sum(CaseStudy2_data$Attrition == "No")
+
+summary(CaseStudy2_data)
+unique(CaseStudy2_data$BusinessTravel)

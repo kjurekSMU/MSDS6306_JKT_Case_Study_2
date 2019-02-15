@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550236385333.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "84E1D95D",
+    "lastKnownWriteTime" : 1549828541,
+    "last_content_update" : 1549828541,
+    "path" : "~/Library/Mobile Documents/com~apple~CloudDocs/SMU/MSDS 6371 Statistical Foundations for Data Science/Unit12/HW12/code/HW12.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "9,77",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
